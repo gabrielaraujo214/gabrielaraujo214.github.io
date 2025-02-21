@@ -1,33 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=], initial-scale=1.0" />
-    <title>Gabriel Araujo</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Gabriel Cunha de Araujo" />
+    <meta
+      name="description"
+      content="Currículo de Gabriel Cunha de Araujo, estudante de Ciência da Computação com habilidades em Git, GitHub e Linux."
+    />
+    <title>Currículo de Gabriel Cunha de Araujo | Ciência da Computação</title>
+
+    <!-- Fonte Google (Inter) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
   </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html"></a>Home</li>
-          <li><a href="about.html"></a>Sobre Mim</li>
-          <li><a href="portfolio.html"></a>Portfólio</li>
-          <li><a href="contact.html"></a>Contato</li>
+  <body class="bg-blue-900 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-2xl shadow-lg max-w-lg w-full text-center">
+      <!-- Foto e Nome -->
+      <img
+        src="./img/photo.jpg"
+        alt="Foto de Gabriel"
+        class="w-32 h-32 mx-auto rounded-full shadow-md"
+      />
+      <h1 class="text-3xl font-bold text-gray-900 mt-4">
+        Gabriel Cunha de Araujo
+      </h1>
+
+      <!-- Contato -->
+      <h2 class="text-xl font-semibold text-gray-700 mt-6">Contato</h2>
+      <ul class="mt-4 space-y-2 text-gray-600">
+        <li>
+          <strong>E-mail:</strong>
+          <a href="mailto:araujo.gca214@gmail.com" class="text-blue-500"
+            >araujo.gca214@gmail.com</a
+          >
+        </li>
+        <li>
+          <strong>Telefone:</strong>
+          <a href="tel:+5511942037485" class="text-blue-500">(11) 94203-7485</a>
+        </li>
+        <li>
+          <strong>LinkedIn:</strong>
+          <a
+            href="https://www.linkedin.com/in/gabriel-cunha-de-araujo/"
+            target="_blank"
+            class="text-blue-500"
+            >Gabriel Araujo</a
+          >
+        </li>
+        <li>
+          <strong>GitHub:</strong>
+          <a
+            href="https://github.com/gabrielaraujo214"
+            target="_blank"
+            class="text-blue-500"
+            >gabrielaraujo214</a
+          >
+        </li>
+        <li><strong>Endereço:</strong>
+          <a href="https://www.google.com/maps?q=Várzea+Paulista,+SP" target="_blank" class="text-blue-500">
+            Várzea Paulista, SP</li>
+      </ul>
+
+      <!-- Educação -->
+      <section class="mt-6 text-left">
+        <h2 class="text-xl font-semibold text-gray-700 border-b pb-2">
+          Educação
+        </h2>
+        <ul class="mt-2 text-gray-600">
+          <li>
+            <strong>Bacharelado em Ciência da Computação</strong> - Unianchieta
+            (2022 - 2025)
+          </li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="home">
-        <h1>Bem-vindo ao meu portfólio de Desenvolvimento de Framework!</h1>
-        <p>Sou estudante de Ciência da Computação</p>
-        <p>
-          Com conhecimentos em HTML, CSS, Javascript, GitHub, Git, Github Pages
-        </p>
-        <img src="./img/profile.jpeg" alt="Foto de perfil" />
       </section>
-    </main>
-    <footer>&copy 2024 Seu Nome</footer>
+
+      <!-- Hard Skills -->
+      <section class="mt-6 text-left">
+        <h2 class="text-xl font-semibold text-gray-700 border-b pb-2">
+          Hard Skills
+        </h2>
+        <ul class="mt-2 grid gap-2 text-gray-600">
+          <li class="bg-orange-100 p-2 rounded-lg text-center">Linux</li>
+          <li class="bg-orange-100 p-2 rounded-lg text-center">Git</li>
+          <li class="bg-orange-100 p-2 rounded-lg text-center">GitHub</li>
+        </ul>
+      </section>
+
+      <!-- Soft Skills -->
+      <section class="mt-6 text-left">
+        <h2 class="text-xl font-semibold text-gray-700 border-b pb-2">
+          Soft Skills
+        </h2>
+        <ul class="mt-2 space-y-2 text-gray-600">
+          <li class="bg-orange-100 p-2 rounded-lg text-center">
+            Comunicação Clara e Objetiva
+          </li>
+          <li class="bg-orange-100 p-2 rounded-lg text-center">
+            Resolução de Problemas
+          </li>
+          <li class="bg-orange-100 p-2 rounded-lg text-center">
+            Organização e Priorização de Tarefas
+          </li>
+          <li class="bg-orange-100 p-2 rounded-lg text-center">
+            Capacidade de Aprender Rápido
+          </li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>
